@@ -3,21 +3,21 @@ public class Main {
 
 
 
-        // 1 задача
+        // 1 дз. 2 задание
 
 
-       int savings = 200000;
-       int objective = 2459000;
-       int month = 1;
-       while (savings < objective) {
-           System.out.println("");
-           System.out.println("1%: " + savings/100);
-           savings = savings + savings/100;     // savings += savings/100
-           System.out.println("Месяц " + month + " сумма накоплений равна " + savings + " рублей");
-           month++;
+        int i = 1;
+        while (i < 11) {
+            System.out.print(i + " ");       // "1 "
+            i++;
+        }
+        System.out.println();
 
+        i--;
 
-       }
+        for (;i>0;i--) {
+            System.out.print( i + " ");
+        }
 
 
 
