@@ -3,21 +3,20 @@ public class Main {
 
 
 
-        // 1 задача
+        // 2 задача, 2 задание
+
+        int money2 = 15000;
+        int total2 = 0;
+        int i = 0;
+        for (; total2 <= 12000000; i++) {
+            total2 = total2 + total2 / 100 * 7;
+            total2 =  total2 + money2;
+            if (i % 6 == 0);
+            System.out.println("Месяц " + i + " сумма " + total2 + " рублей ");
+        }
 
 
-       int savings = 200000;
-       int objective = 2459000;
-       int month = 1;
-       while (savings < objective) {
-           System.out.println("");
-           System.out.println("1%: " + savings/100);
-           savings = savings + savings/100;     // savings += savings/100
-           System.out.println("Месяц " + month + " сумма накоплений равна " + savings + " рублей");
-           month++;
 
-
-       }
 
 
 
