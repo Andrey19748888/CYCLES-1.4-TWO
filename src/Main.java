@@ -3,21 +3,20 @@ public class Main {
 
 
 
-        // 1 задача
+        // tack 2.3
+
+        int money = 15000;
+        int total = 0;
+        int i = 0;
+        for (; i <= 108; i++) {
+            total = total + total / 100 * 7;
+            total =  total + money;
+            if (i % 6 == 0);
+            System.out.println("Месяц " + i + " сумма " + total + " рублей ");
+        }
 
 
-       int savings = 200000;
-       int objective = 2459000;
-       int month = 1;
-       while (savings < objective) {
-           System.out.println("");
-           System.out.println("1%: " + savings/100);
-           savings = savings + savings/100;     // savings += savings/100
-           System.out.println("Месяц " + month + " сумма накоплений равна " + savings + " рублей");
-           month++;
 
-
-       }
 
 
 
