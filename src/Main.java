@@ -3,21 +3,14 @@ public class Main {
 
 
 
-        // 1 задача
+        // task 2.4
 
 
-       int savings = 200000;
-       int objective = 2459000;
-       int month = 1;
-       while (savings < objective) {
-           System.out.println("");
-           System.out.println("1%: " + savings/100);
-           savings = savings + savings/100;     // savings += savings/100
-           System.out.println("Месяц " + month + " сумма накоплений равна " + savings + " рублей");
-           month++;
-
-
-       }
+      int day = 5;
+      while (day <= 31) {
+          System.out.println("Сегодня пятница, " + day + "-е число. Необходимо подготовить отчет.");
+          day += 7; // равносильно day = day+7;
+      }
 
 
 
