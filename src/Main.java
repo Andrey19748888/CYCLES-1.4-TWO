@@ -2,26 +2,18 @@ public class Main {
     public static void main(String[] args) {
 
 
-
-        // 1 задача
-
-
-       int savings = 200000;
-       int objective = 2459000;
-       int month = 1;
-       while (savings < objective) {
-           System.out.println("");
-           System.out.println("1%: " + savings/100);
-           savings = savings + savings/100;     // savings += savings/100
-           System.out.println("Месяц " + month + " сумма накоплений равна " + savings + " рублей");
-           month++;
+       // 3 задание
 
 
-       }
-
-
-
-
+        int population = 12000000;
+       int fertility = population / 1000 * 17;
+       int mortality = population / 1000 * 8;
+       int years = 0;
+       int populationGrowthInOneYear = fertility - mortality;
+       for (years = 1; years <= 10; years++) {
+            population = population + populationGrowthInOneYear;
+            System.out.println("Год " + years + " численность населения состовляет " + population);
+        }
 
 
     }
