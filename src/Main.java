@@ -3,25 +3,13 @@ public class Main {
 
 
 
-        // 1 задача
+        // task 3.1
 
 
-       int savings = 200000;
-       int objective = 2459000;
-       int month = 1;
-       while (savings < objective) {
-           System.out.println("");
-           System.out.println("1%: " + savings/100);
-           savings = savings + savings/100;     // savings += savings/100
-           System.out.println("Месяц " + month + " сумма накоплений равна " + savings + " рублей");
-           month++;
-
-
-       }
-
-
-
-
+        int i = 1896;
+        for ( ; i >= 1822 && i <= 2122; i = i +79) {
+            System.out.println("Комета подлетает к Земле " + i + " году");
+        }
 
 
     }
